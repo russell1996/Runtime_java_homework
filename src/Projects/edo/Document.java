@@ -8,7 +8,7 @@ public class Document {
     private String documentType;
 
     private Random random = new Random();
-    private int hour = random.nextInt(24);
+    private int hour = random.nextInt(23);
     private int minute = random.nextInt(60);
     private int second = random.nextInt(60);
     private LocalTime created = LocalTime.of(hour, minute, second);
